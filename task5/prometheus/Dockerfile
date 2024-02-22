@@ -2,8 +2,8 @@ FROM python:3.9
 
 WORKDIR /usr/src/app
 
-COPY generator.py .
-COPY watcher.sh .
+COPY ./src/generator.py .
+COPY ./src/watcher.sh .
 
 RUN apt-get update && apt-get install -y inotify-tools
 

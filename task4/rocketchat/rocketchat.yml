@@ -1,6 +1,7 @@
 version: '3.7'
 
 services:
+
   rocketchat:
     image: rocket.chat:6.4
     environment:
@@ -14,6 +15,8 @@ services:
       - rocket-chat
     ports:
       - 3000:3000
+    depends_on:
+      - mongodb_container
         #command: >
         #bash -c 'while !</dev/tcp/mongo/27017; do sleep 1; done; node main.js'
 

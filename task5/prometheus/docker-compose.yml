@@ -5,9 +5,8 @@ services:
   prometheus:
     image: prom/prometheus:v2.36.2
     volumes:
-      - ./prometheus/:/etc/prometheus/
+      - ./src/:/etc/prometheus/
       - prometheus_data:/prometheus
-      - ./targets/targets.json:/etc/prometheus/targets.json
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
@@ -22,28 +21,12 @@ services:
       - prometheus-net
     restart: always
 
-  cadvisor:
-    image: gcr.io/cadvisor/cadvisor
-    volumes:
-      - /:/rootfs:ro
-      - /var/run:/var/run:rw
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-    ports:
-      - 8080:8080
-    networks:
-      - prometheus-net
-    restart: always
-    deploy:
-      mode: global
-
   watcher:
     build:
       context: ./src
       dockerfile: Dockerfile
     volumes:
-      - ./targets:/usr/src/app/targets/
-      - ./src/ovr.xml:/usr/app/src/ovr.xml
+      - ./src:/usr/app/src
     restart: unless-stopped
 
 volumes:

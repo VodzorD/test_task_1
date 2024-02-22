@@ -1,0 +1,27 @@
+version: 3.7
+
+services:
+
+  nginx:
+    image: jonasal/nginx-certbot:5.0.0
+    container_name: certbot
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - "CERTBOT_EMAIL=12zxxz@gmail.com"
+      - "NGINX_ENTRYPOINT=/scripts/nginx-entrypoint.sh"
+      - "NGINX_LETSENCRYPT_EMAIL=12zxxz@gmail.com"
+      - "NGINX_SERVER_NAME=36162.hostkey.in"
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d/
+      - ./nginx/templates:/etc/nginx/templates:ro
+      - ./certbot/letsencrypt:/etc/letsencrypt
+      - ./certbot/data:/var/www/certbot
+      - ./certbot/user_conf.d:/etc/nginx/user_conf.d:ro
+    networks:
+      - rocketnet
+    restart: unless-stopped
+
+networks:
+  rocketnet:
