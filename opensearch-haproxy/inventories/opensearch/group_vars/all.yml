@@ -1,0 +1,30 @@
+ansible_user                : root
+ansible_ssh_privet_key_file : /home/root/.ssh/id_rsa.pub
+
+os_cluster_name: staging_opensearch_servers-cluster
+
+os_download_url: https://artifacts.opensearch.org/releases/bundle/opensearch
+os_version: "2.11.1"
+os_dashboards_version: "2.11.1"
+
+domain_name: localhost
+
+xms_value: 1
+xmx_value: 1
+
+os_user: opensearch
+os_dashboards_user: opensearch-dashboards
+
+auth_type: internal
+
+cert_valid_days: 730
+
+
+
+
+copy_custom_security_configs: false
+custom_security_plugin_configs:
+  - files/tenants.yml
+  - files/roles.yml
+  - files/roles_mapping.yml
+  - files/internal_users.yml

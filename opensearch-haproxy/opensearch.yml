@@ -1,0 +1,20 @@
+- name: Opensearch installation & configuration
+  hosts: staging_opensearch_servers
+  gather_facts: true
+  roles:
+    - { role: linux/opensearch }
+  tags: opensearch
+
+- name: Opensearch dashboards installation & configuration
+  hosts: staging_opensearch_dashboard_servers
+  gather_facts: true
+  roles:
+    - { role: linux/dashboards }
+  tags: dashboards
+
+- name: HAProxy installation & configuration
+  hosts: haproxy_servers
+  gather_facts: true
+  roles:
+    - { role: linux/haproxy }
+  tags: haproxy

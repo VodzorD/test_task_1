@@ -1,0 +1,37 @@
+version: '3.7'
+
+services:
+  rocketchat:
+    image: rocket.chat:6.4
+    environment:
+      ROOT_URL: http://localhost:3000
+      PORT: 3000
+      DEPLOY_METHOD: docker
+      MONGO_URL: "mongodb://rocketchat-adm:rocketchatAdm123@mongodb_container:27017/rocketchat"
+      MONGO_OPLOG_URL: "mongodb://rocketchat-adm:rocketchatAdm123@mongodb_container:27017/local"
+    restart: unless-stopped
+    networks:
+      - rocket-chat
+    ports:
+      - 3000:3000
+        #command: >
+        #bash -c 'while !</dev/tcp/mongo/27017; do sleep 1; done; node main.js'
+
+  mongodb_container:
+    image: mongo:4.4.27
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+      MONGODB_ADVERTISED_HOSTNAME: mongodb
+      MONGODB_INITIAL_PRIMARY_HOST: mongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+    networks:
+      - rocket-chat
+
+volumes:
+  mongodb_data_container:
+networks:
+  rocket-chat:

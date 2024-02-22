@@ -1,0 +1,10 @@
+---
+
+os_home: "/opt/opensearch"
+os_conf_dir: "/opt/opensearch/config/"
+os_sec_plugin_conf_path: /opt/opensearch/config/opensearch-security
+os_api_port: 9200
+os_sec_plugin_tools_path: /opt/opensearch/plugins/opensearch-security/tools
+os_plugin_bin_path: /opt/opensearch/bin/opensearch-plugin
+
+systemctl_path: /etc/systemd/system

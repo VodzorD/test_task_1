@@ -1,0 +1,8 @@
+[staging_opensearch_servers]
+linux1 ansible_host=192.168.56.104 ip=192.168.56.104
+
+[staging_opensearch_dashboard_servers]
+dashboard1 ansible_host=192.168.56.103 ip=192.168.56.103
+
+[haproxy_servers]
+haproxy ansible_host=192.168.56.102 ip=192.168.56.102

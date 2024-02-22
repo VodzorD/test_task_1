@@ -1,0 +1,1507 @@
+<hosts>
+<host href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157" id="f415e889-e9a7-4154-9ead-3f1187a9e157">
+<actions>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/refresh" rel="refresh"/>
+</actions>
+<name>fi01</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/f415e889-e9a7-4154-9ead-3f1187a9e157/statistics" rel="statistics"/>
+<address>172.20.1.21</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.21</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz</name>
+<speed>3100</speed>
+<topology>
+<cores>10</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel IvyBridge Family</type>
+</cpu>
+<device_passthrough>
+<enabled>false</enabled>
+</device_passthrough>
+<display>
+<address>212.237.217.21</address>
+</display>
+<external_status>ok</external_status>
+<hardware_information>
+<family/>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R720xd</product_name>
+<serial_number>FSQ6WW1</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>4C4C4544-0053-5110-8036-C6C04F575731</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:fd798f5a9a3c</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-14.module_el8.8.0+1257+0c3374ae</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>132303028224</max_scheduling_memory>
+<memory>405144600576</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline>rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</custom_kernel_cmdline>
+<reported_kernel_cmdline>BOOT_IMAGE=(hd0,gpt4)/vmlinuz-4.18.0-448.el8.x86_64 root=/dev/mapper/cs-root ro crashkernel=auto resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet "rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1"</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>110</active>
+<migrating>0</migrating>
+<total>110</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/931e5445-cc4b-41bd-a101-c79ac9febe69" id="931e5445-cc4b-41bd-a101-c79ac9febe69"/>
+</host>
+<host href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd" id="a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd">
+<actions>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/refresh" rel="refresh"/>
+</actions>
+<name>fi04</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/a170c75e-0b67-4f5c-bfa8-3e8f1e9d6cdd/statistics" rel="statistics"/>
+<address>172.20.1.24</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.24</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz</name>
+<speed>1700</speed>
+<topology>
+<cores>10</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel IvyBridge Family</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family/>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R720xd</product_name>
+<serial_number>DS38WW1</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>4C4C4544-0053-3310-8038-C4C04F575731</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:cd2a6a57ce69</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-14.module_el8.8.0+1257+0c3374ae</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>177362436096</max_scheduling_memory>
+<memory>405140406272</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/0e551e20f75725cca4e84e98d4d99827)/vmlinuz-4.18.0-497.el8.x86_64 root=/dev/mapper/cs-root ro crashkernel=auto resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.md.uuid=3574c293:7830526c:f138085c:23b19b0f rd.md.uuid=0e551e20:f75725cc:a4e84e98:d4d99827 rd.lvm.lv=cs/swap rhgb quiet rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>121</active>
+<migrating>0</migrating>
+<total>121</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/3d45df66-bd33-454f-93d2-1939f103305a" id="3d45df66-bd33-454f-93d2-1939f103305a"/>
+</host>
+<host href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a" id="9d4498f1-341a-4865-930e-0ec28098246a">
+<actions>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/refresh" rel="refresh"/>
+</actions>
+<name>fi05</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/9d4498f1-341a-4865-930e-0ec28098246a/statistics" rel="statistics"/>
+<address>172.20.1.25</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.25</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz</name>
+<speed>3600</speed>
+<topology>
+<cores>10</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel IvyBridge Family</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family/>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R720xd</product_name>
+<serial_number>5NB8WW1</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>4C4C4544-004E-4210-8038-B5C04F575731</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:206fc9becb</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>false</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>333100089344</max_scheduling_memory>
+<memory>405128871936</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline>intel_iommu=on</custom_kernel_cmdline>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/9218ba1991dd78102caf2e34a56db8fd)/vmlinuz-4.18.0-513.el8.x86_64 root=/dev/mapper/root-root ro crashkernel=auto resume=/dev/mapper/root-swap rd.md.uuid=765ba6a7:db9405be:39a12461:e3b9e22d rd.lvm.lv=root/root rd.md.uuid=9218ba19:91dd7810:2caf2e34:a56db8fd rd.lvm.lv=root/swap rhgb quiet intel_iommu=on rdblacklist=nouveau kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>33</active>
+<migrating>0</migrating>
+<total>33</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/f6fc47be-3dea-4d54-9ead-29e6402b5d67" id="f6fc47be-3dea-4d54-9ead-29e6402b5d67"/>
+</host>
+<host href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d" id="5d1136ef-42a8-4123-ad56-49730998386d">
+<actions>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/refresh" rel="refresh"/>
+</actions>
+<name>fi06</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/5d1136ef-42a8-4123-ad56-49730998386d/statistics" rel="statistics"/>
+<address>172.20.1.26</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.26</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz</name>
+<speed>3100</speed>
+<topology>
+<cores>10</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel IvyBridge Family</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family/>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R720xd</product_name>
+<serial_number>GP4D4X1</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>4C4C4544-0050-3410-8044-C7C04F345831</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:e6db2e7c3cb4</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>38016122880</max_scheduling_memory>
+<memory>405128871936</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=/vmlinuz-4.18.0-514.el8.x86_64 root=/dev/mapper/vg44727-root ro nofb splash=quiet crashkernel=auto rhgb rd.auto=1 quiet rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>disabled</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>163</active>
+<migrating>0</migrating>
+<total>163</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/c3cc3a37-91a4-421f-9433-a121bf587e45" id="c3cc3a37-91a4-421f-9433-a121bf587e45"/>
+</host>
+<host href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8" id="600cda3f-a543-4285-8d2b-1d631e8915f8">
+<actions>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/refresh" rel="refresh"/>
+</actions>
+<name>fi08</name>
+<comment>nested</comment>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/600cda3f-a543-4285-8d2b-1d631e8915f8/statistics" rel="statistics"/>
+<address>172.20.1.28</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.28</subject>
+</certificate>
+<cpu>
+<name>AMD EPYC 7451 24-Core Processor</name>
+<speed>2300</speed>
+<topology>
+<cores>24</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure AMD EPYC</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family>To be filled by O.E.M.</family>
+<manufacturer>Supermicro</manufacturer>
+<product_name>AS -2123BT-HTR</product_name>
+<serial_number>A296774X8902385</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>00000000-0000-0000-0000-ac1f6bb0e5e2</uuid>
+<version>0123456789</version>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:65e3ea1cd720</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>116886863872</max_scheduling_memory>
+<memory>405094268928</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/6f6a183cf3edfc109930fc34f4f89f92)/vmlinuz-4.18.0-522.el8.x86_64 root=/dev/mapper/root-root ro crashkernel=auto resume=/dev/mapper/root-swap rd.md.uuid=e21f7869:1b6cb1d9:8e84fe98:248fb8fc rd.lvm.lv=root/root rd.md.uuid=6f6a183c:f3edfc10:9930fc34:f4f89f92 rd.lvm.lv=root/swap rhgb quiet intel_iommu=on kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>94</active>
+<migrating>0</migrating>
+<total>94</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/a2ac8920-e989-4667-8746-1ede25ee7f9d" id="a2ac8920-e989-4667-8746-1ede25ee7f9d"/>
+</host>
+<host href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b" id="8715977a-0f34-4558-a17e-579573eee07b">
+<actions>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/refresh" rel="refresh"/>
+</actions>
+<name>fi09</name>
+<comment>nested</comment>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/8715977a-0f34-4558-a17e-579573eee07b/statistics" rel="statistics"/>
+<address>172.20.1.29</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.29</subject>
+</certificate>
+<cpu>
+<name>AMD EPYC 7451 24-Core Processor</name>
+<speed>2862</speed>
+<topology>
+<cores>24</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure AMD EPYC</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family>To be filled by O.E.M.</family>
+<manufacturer>Supermicro</manufacturer>
+<product_name>AS -2123BT-HTR</product_name>
+<serial_number>A296774X8902385</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>00000000-0000-0000-0000-ac1f6bb0e49e</uuid>
+<version>0123456789</version>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:720bf126366</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>false</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>288897368064</max_scheduling_memory>
+<memory>405094268928</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/fbf2fab5a145e2bd2146671bdb3ff4e2)/vmlinuz-4.18.0-526.el8.x86_64 root=/dev/mapper/root-root ro crashkernel=auto resume=/dev/mapper/root-swap rd.md.uuid=b76df88a:a61d0e8d:f1a1fda8:f0e62932 rd.lvm.lv=root/root rd.md.uuid=fbf2fab5:a145e2bd:2146671b:db3ff4e2 rd.lvm.lv=root/swap rhgb quiet amd_iommu=on kvm-amd.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>35</active>
+<migrating>0</migrating>
+<total>35</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/142a858b-801a-4650-9a73-9779dd007227" id="142a858b-801a-4650-9a73-9779dd007227"/>
+</host>
+<host href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a" id="f941359f-4432-4fcb-b799-bf6941b01c5a">
+<actions>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/refresh" rel="refresh"/>
+</actions>
+<name>fi10</name>
+<comment>nested</comment>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/f941359f-4432-4fcb-b799-bf6941b01c5a/statistics" rel="statistics"/>
+<address>172.20.1.30</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.30</subject>
+</certificate>
+<cpu>
+<name>AMD EPYC 7451 24-Core Processor</name>
+<speed>2300</speed>
+<topology>
+<cores>24</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure AMD EPYC</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family>To be filled by O.E.M.</family>
+<manufacturer>Supermicro</manufacturer>
+<product_name>AS -2123BT-HTR</product_name>
+<serial_number>A296774X8902385</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>00000000-0000-0000-0000-ac1f6bb0e5fe</uuid>
+<version>0123456789</version>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:717ca9b64583</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>115834093568</max_scheduling_memory>
+<memory>405094268928</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/dc2f1b8cf20b696668f92ad6230f0e48)/vmlinuz-4.18.0-522.el8.x86_64 root=/dev/mapper/root-root ro crashkernel=auto resume=/dev/mapper/root-swap rd.md.uuid=81644eb1:23d0d892:b3c5cd42:c64ce844 rd.lvm.lv=root/root rd.md.uuid=dc2f1b8c:f20b6966:68f92ad6:230f0e48 rd.lvm.lv=root/swap amd_iommu=on kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>61</active>
+<migrating>0</migrating>
+<total>61</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/20f6c824-6343-408c-b1ce-4a48a602bc56" id="20f6c824-6343-408c-b1ce-4a48a602bc56"/>
+</host>
+<host href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439" id="f4656ff3-4805-4c4f-a1eb-42b55e81f439">
+<actions>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/refresh" rel="refresh"/>
+</actions>
+<name>fi11</name>
+<comment>nested</comment>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/f4656ff3-4805-4c4f-a1eb-42b55e81f439/statistics" rel="statistics"/>
+<address>172.20.1.31</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.31</subject>
+</certificate>
+<cpu>
+<name>AMD EPYC 7451 24-Core Processor</name>
+<speed>2300</speed>
+<topology>
+<cores>24</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure AMD EPYC</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family>To be filled by O.E.M.</family>
+<manufacturer>Supermicro</manufacturer>
+<product_name>AS -2123BT-HTR</product_name>
+<serial_number>A296774X8902385</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>00000000-0000-0000-0000-ac1f6bb0e602</uuid>
+<version>0123456789</version>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:739e54b5ff2</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>false</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-22.module_el8+596+27e96798</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>404689518592</max_scheduling_memory>
+<memory>405094268928</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/323d0c489ed743788959ac72193e1fad)/vmlinuz-4.18.0-526.el8.x86_64 root=/dev/mapper/root-root ro crashkernel=auto resume=/dev/mapper/root-swap rd.md.uuid=df9d0408:265883f0:d63906c1:103e9bb6 rd.lvm.lv=root/root rd.md.uuid=323d0c48:9ed74378:8959ac72:193e1fad rd.lvm.lv=root/swap rhgb quiet kvm-amd.nested=1 amd_iommu=on</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>0</active>
+<migrating>0</migrating>
+<total>0</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>5</build>
+<full_version>vdsm-4.50.5.1-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>1</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/24a8fc37-86a0-4e56-a5ce-933ae594828c" id="24a8fc37-86a0-4e56-a5ce-933ae594828c"/>
+</host>
+<host href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee" id="df2b3b27-98cf-4140-b7a6-9700b5de56ee">
+<actions>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/refresh" rel="refresh"/>
+</actions>
+<name>fifast03</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/df2b3b27-98cf-4140-b7a6-9700b5de56ee/statistics" rel="statistics"/>
+<address>172.20.1.23</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.23</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz</name>
+<speed>3900</speed>
+<topology>
+<cores>16</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel Cascadelake Server Family</type>
+</cpu>
+<device_passthrough>
+<enabled>false</enabled>
+</device_passthrough>
+<display>
+<address>212.237.217.23</address>
+</display>
+<external_status>ok</external_status>
+<hardware_information>
+<family>PowerEdge</family>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R640</product_name>
+<serial_number>151ZRB3</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>44454c4c-3500-1031-805a-b1c04f524233</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:cd14ca518cbd</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-14.module_el8.8.0+1257+0c3374ae</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>191687032832</max_scheduling_memory>
+<memory>403621019648</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline>rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</custom_kernel_cmdline>
+<reported_kernel_cmdline>BOOT_IMAGE=(mduuid/dab91a34f1ecf0044f321a5a6b9bbaba)/vmlinuz-4.18.0-448.el8.x86_64 root=/dev/mapper/cs00-root ro crashkernel=auto resume=/dev/mapper/cs00-swap rd.lvm.lv=cs00/root rd.md.uuid=26d08ba2:3c0639b2:c36c0a1d:f19a577c rd.md.uuid=dab91a34:f1ecf004:4f321a5a:6b9bbaba rd.lvm.lv=cs00/swap rhgb quiet "rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1"</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>42</active>
+<migrating>0</migrating>
+<total>42</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/e66cf4da-005a-4503-80ea-12f85d0de052" id="e66cf4da-005a-4503-80ea-12f85d0de052"/>
+</host>
+<host href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3" id="5c2e8751-a41a-4c60-80da-181b2a5137e3">
+<actions>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/refresh" rel="refresh"/>
+</actions>
+<name>figpu104</name>
+<comment>8*1080Ti</comment>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/5c2e8751-a41a-4c60-80da-181b2a5137e3/statistics" rel="statistics"/>
+<address>172.20.1.104</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.104</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz</name>
+<speed>3300</speed>
+<topology>
+<cores>14</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel Broadwell Family</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<external_status>ok</external_status>
+<hardware_information>
+<family>Server</family>
+<manufacturer>GIGABYTE</manufacturer>
+<product_name>G250-G52-XX</product_name>
+<serial_number>GHG2N5021A0013</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>00000000-0000-0040-8000-1C1B0DBC218A</uuid>
+<version>0100</version>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:465ece3a3e64</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-14.module_el8.8.0+1257+0c3374ae</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>95236915200</max_scheduling_memory>
+<memory>303612035072</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline/>
+<reported_kernel_cmdline>BOOT_IMAGE=/vmlinuz-4.18.0-497.el8.x86_64 root=/dev/mapper/vg31165-root ro nofb splash=quiet crashkernel=auto rhgb rd.auto=1 quiet rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1 acpi_pad.disable=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>disabled</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>6</active>
+<migrating>0</migrating>
+<total>6</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/2cf90b67-4d80-4927-98bb-5287ea26cfc9" id="2cf90b67-4d80-4927-98bb-5287ea26cfc9"/>
+</host>
+<host href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff" id="0cd3f93e-70c3-4c46-a5b8-6f3e688949ff">
+<actions>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/deactivate" rel="deactivate"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/activate" rel="activate"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/install" rel="install"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/upgrade" rel="upgrade"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/syncallnetworks" rel="syncallnetworks"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/copyhostnetworks" rel="copyhostnetworks"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/approve" rel="approve"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/commitnetconfig" rel="commitnetconfig"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/enrollcertificate" rel="enrollcertificate"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/fence" rel="fence"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/forceselectspm" rel="forceselectspm"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/iscsidiscover" rel="iscsidiscover"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/discoveriscsi" rel="discoveriscsi"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/iscsilogin" rel="iscsilogin"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/unregisteredstoragedomainsdiscover" rel="unregisteredstoragedomainsdiscover"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/upgradecheck" rel="upgradecheck"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/setupnetworks" rel="setupnetworks"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/refresh" rel="refresh"/>
+</actions>
+<name>fispace02</name>
+<comment/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/katelloerrata" rel="katelloerrata"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/permissions" rel="permissions"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/tags" rel="tags"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/affinitylabels" rel="affinitylabels"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/numanodes" rel="numanodes"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/fenceagents" rel="fenceagents"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/devices" rel="devices"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/hooks" rel="hooks"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/storage" rel="storage"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/networkattachments" rel="networkattachments"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/storageconnectionextensions" rel="storageconnectionextensions"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/unmanagednetworks" rel="unmanagednetworks"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/nics" rel="nics"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/externalnetworkproviderconfigurations" rel="externalnetworkproviderconfigurations"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/cpuunits" rel="cpuunits"/>
+<link href="/ovirt-engine/api/hosts/0cd3f93e-70c3-4c46-a5b8-6f3e688949ff/statistics" rel="statistics"/>
+<address>172.20.1.22</address>
+<auto_numa_status>unknown</auto_numa_status>
+<certificate>
+<organization>infra.hostkey.ru</organization>
+<subject>O=infra.hostkey.ru,CN=172.20.1.22</subject>
+</certificate>
+<cpu>
+<name>Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz</name>
+<speed>3600</speed>
+<topology>
+<cores>10</cores>
+<sockets>2</sockets>
+<threads>2</threads>
+</topology>
+<type>Secure Intel IvyBridge Family</type>
+</cpu>
+<device_passthrough>
+<enabled>true</enabled>
+</device_passthrough>
+<display>
+<address>212.237.217.22</address>
+</display>
+<external_status>ok</external_status>
+<hardware_information>
+<family/>
+<manufacturer>Dell Inc.</manufacturer>
+<product_name>PowerEdge R720xd</product_name>
+<serial_number>17P7WW1</serial_number>
+<supported_rng_sources>
+<supported_rng_source>hwrng</supported_rng_source>
+<supported_rng_source>random</supported_rng_source>
+</supported_rng_sources>
+<uuid>4C4C4544-0037-5010-8037-B1C04F575731</uuid>
+<version/>
+</hardware_information>
+<iscsi>
+<initiator>iqn.1994-05.com.redhat:fb6e936513e3</initiator>
+</iscsi>
+<kdump_status>disabled</kdump_status>
+<ksm>
+<enabled>true</enabled>
+</ksm>
+<libvirt_version>
+<build>0</build>
+<full_version>libvirt-8.0.0-14.module_el8.8.0+1257+0c3374ae</full_version>
+<major>8</major>
+<minor>0</minor>
+<revision>0</revision>
+</libvirt_version>
+<max_scheduling_memory>228495196160</max_scheduling_memory>
+<memory>405144600576</memory>
+<numa_supported>true</numa_supported>
+<os>
+<custom_kernel_cmdline>rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</custom_kernel_cmdline>
+<reported_kernel_cmdline>BOOT_IMAGE=(hd0,gpt2)/vmlinuz-4.18.0-448.el8.x86_64 root=/dev/mapper/cs-root ro crashkernel=auto resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet rdblacklist=nouveau intel_iommu=on kvm-intel.nested=1</reported_kernel_cmdline>
+<type>RHEL</type>
+<version>
+<full_version>8.6 - 1.el8</full_version>
+<major>8</major>
+<minor>6</minor>
+</version>
+</os>
+<ovn_configured>false</ovn_configured>
+<port>54321</port>
+<power_management>
+<automatic_pm_enabled>true</automatic_pm_enabled>
+<enabled>false</enabled>
+<kdump_detection>true</kdump_detection>
+<pm_proxies/>
+</power_management>
+<protocol>stomp</protocol>
+<reinstallation_required>false</reinstallation_required>
+<se_linux>
+<mode>enforcing</mode>
+</se_linux>
+<spm>
+<priority>5</priority>
+<status>spm</status>
+</spm>
+<status>up</status>
+<summary>
+<active>47</active>
+<migrating>0</migrating>
+<total>47</total>
+</summary>
+<transparent_hugepages>
+<enabled>true</enabled>
+</transparent_hugepages>
+<type>rhel</type>
+<update_available>true</update_available>
+<version>
+<build>3</build>
+<full_version>vdsm-4.50.3.4-1.el8</full_version>
+<major>4</major>
+<minor>50</minor>
+<revision>4</revision>
+</version>
+<vgpu_placement>consolidated</vgpu_placement>
+<cluster href="/ovirt-engine/api/clusters/c8ddae74-fb0e-41c5-9261-81bd13ddfb8a" id="c8ddae74-fb0e-41c5-9261-81bd13ddfb8a"/>
+</host>
+</hosts>

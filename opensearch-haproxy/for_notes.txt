@@ -1,0 +1,3 @@
+ansible -i ./inventories/opensearch/hosts all -m ping
+
+ansible-playbook -i inventories/opensearch/hosts opensearch.yml --extra-vars "admin_password=myStrongPassword123! kibanaserver_password=myStrongPassword6789! logstash_password=myStrongPassword456!"
